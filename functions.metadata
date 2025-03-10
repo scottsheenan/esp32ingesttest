@@ -1,0 +1,24 @@
+[
+  {
+    "name": "ESP32ProtoFunction",
+    "scriptFile": "ESP32Proto001.exe",
+    "entryPoint": "ESP32Proto001.ESP32ProtoFunction.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "events",
+        "direction": "In",
+        "type": "eventHubTrigger",
+        "eventHubName": "iothub-ehub-esp32proto",
+        "connection": "ConnectionString",
+        "cardinality": "Many",
+        "properties": {
+          "supportsDeferredBinding": "True"
+        }
+      }
+    ]
+  }
+]

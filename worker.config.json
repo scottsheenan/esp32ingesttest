@@ -1,0 +1,10 @@
+{
+  "description": {
+    "language": "dotnet-isolated",
+    "extensions": [ ".dll" ],
+    "defaultExecutablePath": "{WorkerRoot}ESP32Proto001.exe",
+    "defaultWorkerPath": "ESP32Proto001.exe",
+    "workerIndexing": "true",
+    "canUsePlaceholder": true
+  }
+}
